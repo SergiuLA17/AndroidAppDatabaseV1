@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+       tools:context=".MainActivity" >
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+       
+       <Button
+               android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="createDB"
+           android:text="CrDb" />
+       <Button
+               android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="createTAB"
+           android:text="CrTab" />
+        <Button
+                android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="fillTAB"
+           android:text="FillTab" />
+        <Button
+                android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="studL"
+           android:text="ProdL" />
+        <Button
+                android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="ReadWords"
+           android:text="RWds" />
+        
+ </LinearLayout>      
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+ <TextView
+     android:id="@+id/textView1"
+     android:layout_width="match_parent"
+     android:layout_height="150dp"
+     />
+
+        <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="editText1">
+
+            <requestFocus/>
+        </EditText>
+        <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="editText1">
+
+            <requestFocus/>
+        </EditText>
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="editText1" >
+
+        <requestFocus />
+    </EditText>
+       <EditText
+           android:id="@+id/txtData"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:text="txtData" />
+        
+    </LinearLayout>   
+  
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+       
+       </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+       
+       </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <Spinner
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+       
+       </LinearLayout>
+
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+
+</GridLayout>
+
+</LinearLayout>
+
+
