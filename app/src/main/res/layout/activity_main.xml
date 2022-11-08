@@ -10,34 +10,39 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
-       
-       <Button
-               android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:onClick="createDB"
-           android:text="CrDb" />
-       <Button
-               android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:onClick="createTAB"
-           android:text="CrTab" />
-        <Button
-                android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:onClick="fillTAB"
-           android:text="FillTab" />
-        <Button
-                android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:onClick="studL"
-           android:text="ProdL" />
-        <Button
-                android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:onClick="ReadWords"
-           android:text="RWds" />
-        
- </LinearLayout>      
+
+    <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:onClick="createDB"
+            android:text="CrDb"/>
+    <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:onClick="createTAB"
+            android:text="CrTab"/>
+    <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:onClick="fillTAB"
+            android:text="FillTab"/>
+    <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:onClick="studL"
+            android:text="ProdL"/>
+    <Button
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:onClick="save"
+            android:text="save"/>
+    <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:onClick="read"
+            android:text="read"/>
+
+</LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -83,7 +88,7 @@
            android:layout_height="wrap_content"
            android:ems="10"
            android:text="txtData" />
-        
+
     </LinearLayout>   
   
     <LinearLayout
